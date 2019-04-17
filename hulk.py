@@ -1,3 +1,4 @@
+# -*- coding: cp1254 -*-
 import urllib2
 import sys
 import threading
@@ -60,9 +61,14 @@ def buildblock(size):
 	return(out_str)
 
 def usage():
+	print "###############################################"
+	print "#        K3HR1B4R TARAFINDAN CEVIRILDI        #"
+	print "#                                             #"
+	print "#              BÖRÜ HACK TEAM                 #"
+	print "###############################################"
 	print '------------------------------------------------------------------------------'
 	print 'KULLANIMI: python hulk.py <url>'
-	print 'DoStan sonra otomatik olarak kapatmak icin url sonuna "safe" ekleyebilirsiniz.'
+	print 'DoStan sonra otomatik olarak kapatmak için url sonuna "safe" ekleyebilirsiniz.'
 	print '------------------------------------------------------------------------------'
 
 	
@@ -130,7 +136,7 @@ else:
 		usage()
 		sys.exit()
 	else:
-		print "-- HULK Attack Basladi --"
+		print "-- HULK Attack Başladı --"
 		if len(sys.argv)== 3:
 			if sys.argv[2]=="safe":
 				set_safe()
